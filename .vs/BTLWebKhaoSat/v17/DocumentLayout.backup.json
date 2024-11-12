@@ -1,0 +1,364 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\BTLWebKhaoSat\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\controllers\\surveycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\controllers\\surveycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\views\\survey\\answersurvey.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\views\\survey\\answersurvey.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\models\\responseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\models\\responseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\views\\survey\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\views\\survey\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\views\\survey\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\views\\survey\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\views\\survey\\mysurveys.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\views\\survey\\mysurveys.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\views\\survey\\responses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\views\\survey\\responses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\models\\questionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\models\\questionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\models\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\models\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\models\\userregisterviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\models\\userregisterviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|d:\\btlwebkhaosat\\btlwebkhaosat\\models\\surveydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81A225CA-893B-4C3D-97E6-DEB09A342543}|BTLWebKhaoSat\\BTLWebKhaoSat.csproj|solutionrelative:btlwebkhaosat\\models\\surveydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Responses.cshtml",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Survey\\Responses.cshtml",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Views\\Survey\\Responses.cshtml",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Survey\\Responses.cshtml",
+              "RelativeToolTip": "BTLWebKhaoSat\\Views\\Survey\\Responses.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T03:06:05.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MySurveys.cshtml",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Survey\\MySurveys.cshtml",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Views\\Survey\\MySurveys.cshtml",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Survey\\MySurveys.cshtml",
+              "RelativeToolTip": "BTLWebKhaoSat\\Views\\Survey\\MySurveys.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T02:53:24.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Survey\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Views\\Survey\\Index.cshtml",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Survey\\Index.cshtml",
+              "RelativeToolTip": "BTLWebKhaoSat\\Views\\Survey\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T01:49:38.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AnswerSurvey.cshtml",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Survey\\AnswerSurvey.cshtml",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Views\\Survey\\AnswerSurvey.cshtml",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Survey\\AnswerSurvey.cshtml",
+              "RelativeToolTip": "BTLWebKhaoSat\\Views\\Survey\\AnswerSurvey.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T01:51:34.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SurveyController.cs",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Controllers\\SurveyController.cs",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Controllers\\SurveyController.cs",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Controllers\\SurveyController.cs*",
+              "RelativeToolTip": "BTLWebKhaoSat\\Controllers\\SurveyController.cs*",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAIwIMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:45:51.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Program.cs",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Program.cs",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Program.cs",
+              "RelativeToolTip": "BTLWebKhaoSat\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:31:39.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ResponseViewModel.cs",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\ResponseViewModel.cs",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Models\\ResponseViewModel.cs",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\ResponseViewModel.cs",
+              "RelativeToolTip": "BTLWebKhaoSat\\Models\\ResponseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T03:51:25.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "QuestionViewModel.cs",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\QuestionViewModel.cs",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Models\\QuestionViewModel.cs",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\QuestionViewModel.cs",
+              "RelativeToolTip": "BTLWebKhaoSat\\Models\\QuestionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T03:44:39.944Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Survey\\Create.cshtml",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Views\\Survey\\Create.cshtml",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Survey\\Create.cshtml",
+              "RelativeToolTip": "BTLWebKhaoSat\\Views\\Survey\\Create.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T03:40:55.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "BTLWebKhaoSat\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAuwEQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:43:26.044Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "BTLWebKhaoSat\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T03:36:22.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\appsettings.json",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\appsettings.json",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\appsettings.json",
+              "RelativeToolTip": "BTLWebKhaoSat\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-12T01:31:44.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Views\\Account\\Login.cshtml",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "BTLWebKhaoSat\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T01:49:18.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BTLWebKhaoSat\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T02:08:39.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "BTLWebKhaoSat\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wA8AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:48:19.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\User.cs",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Models\\User.cs",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\User.cs",
+              "RelativeToolTip": "BTLWebKhaoSat\\Models\\User.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA1wBMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:58:31.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\Role.cs",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Models\\Role.cs",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\Role.cs",
+              "RelativeToolTip": "BTLWebKhaoSat\\Models\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:04:56.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Views\\Account\\Register.cshtml",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "BTLWebKhaoSat\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-12T02:08:05.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Models\\LoginViewModel.cs",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\LoginViewModel.cs",
+              "RelativeToolTip": "BTLWebKhaoSat\\Models\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T02:26:09.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserRegisterViewMode.cs",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\UserRegisterViewMode.cs",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Models\\UserRegisterViewMode.cs",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\UserRegisterViewMode.cs",
+              "RelativeToolTip": "BTLWebKhaoSat\\Models\\UserRegisterViewMode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:56:11.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SurveydbContext.cs",
+              "DocumentMoniker": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\SurveydbContext.cs",
+              "RelativeDocumentMoniker": "BTLWebKhaoSat\\Models\\SurveydbContext.cs",
+              "ToolTip": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\Models\\SurveydbContext.cs",
+              "RelativeToolTip": "BTLWebKhaoSat\\Models\\SurveydbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:38:29.561Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

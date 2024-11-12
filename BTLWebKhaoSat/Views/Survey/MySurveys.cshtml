@@ -1,0 +1,30 @@
+﻿@model IEnumerable<BTLWebKhaoSat.Models.Survey>
+
+<h2>My Surveys</h2>
+
+<a asp-controller="Survey" asp-action="Index" class="btn btn-secondary mb-3">All Surveys</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Created At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var survey in Model)
+        {
+            <tr>
+                <td>@survey.Title</td>
+                <td>@survey.CreatedAt</td>
+                <td>
+                    <a asp-controller="Survey" asp-action="Responses" asp-route-id="@survey.SurveyId" class="btn btn-info">View</a>
+                    <form asp-controller="Survey" asp-action="Delete" asp-route-id="@survey.SurveyId" method="post" style="display:inline;" onsubmit="return confirm('Are you sure you want to delete this survey?');">
+                        <button type="submit" class="btn btn-danger">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

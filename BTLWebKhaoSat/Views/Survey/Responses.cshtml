@@ -1,0 +1,29 @@
+﻿@model BTLWebKhaoSat.Models.Survey
+
+<h2>Responses for @Model.Title</h2>
+
+<a asp-controller="Survey" asp-action="MySurveys" class="btn btn-secondary mb-3">Back to My Surveys</a>
+<a asp-controller="Survey" asp-action="ExportToExcel" asp-route-id="@Model.SurveyId" class="btn btn-success mb-3">Export to Excel</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Question</th>
+            <th>Answer</th>
+            <th>Answered By</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var question in Model.Questions)
+        {
+            foreach (var response in question.Responses)
+            {
+                <tr>
+                    <td>@question.QuestionText</td>
+                    <td>@response.AnswerText</td>
+                    <td>@response.User.Username</td> <!-- Hiển thị tên người trả lời -->
+                </tr>
+            }
+        }
+    </tbody>
+</table>

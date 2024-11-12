@@ -1,0 +1,80 @@
+﻿@model BTLWebKhaoSat.Models.Survey
+@{
+    ViewData["Title"] = "Create Survey";
+}
+
+<h2>Create New Survey</h2>
+
+<form asp-action="Create" method="post" id="surveyForm">
+    <div class="form-group">
+        <label for="Title">Survey Title</label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <hr />
+
+    <h3>Questions</h3>
+    <div id="questionsContainer">
+        <!-- Câu hỏi sẽ được thêm vào đây -->
+    </div>
+
+    <button type="button" class="btn btn-secondary" onclick="addQuestion()">Add Question</button>
+
+    <hr />
+    <button type="submit" class="btn btn-success mt-3">Create Survey</button>
+</form>
+
+@section Scripts {
+    <script>
+        function addQuestion() {
+            const questionIndex = document.querySelectorAll('.question-item').length;
+
+            const questionHtml = `
+                        <div class="question-item mb-3" data-index="${questionIndex}">
+                            <label>Question Text</label>
+                            <input name="questions[${questionIndex}].QuestionText" class="form-control" required />
+
+                            <label>Question Type</label>
+                            <select name="questions[${questionIndex}].TypeID" class="form-control" onchange="handleQuestionTypeChange(this, ${questionIndex})">
+                                <option value="1">Text</option>
+                                <option value="2">Single Choice</option>
+                                <option value="3">Multiple Choice</option>
+                            </select>
+
+                            <div class="options-container mt-2" id="optionsContainer_${questionIndex}" style="display: none;">
+                                <label>Options</label>
+                                <div class="option-item mb-2">
+                                    <input type="text" name="questions[${questionIndex}].Options[0]" class="form-control" placeholder="Option 1" />
+                                </div>
+                                <button type="button" class="btn btn-secondary btn-sm" onclick="addOption(${questionIndex})">Add Option</button>
+                            </div>
+
+                            <hr />
+                        </div>
+                    `;
+
+            document.getElementById('questionsContainer').insertAdjacentHTML('beforeend', questionHtml);
+        }
+
+        function handleQuestionTypeChange(select, questionIndex) {
+            const optionsContainer = document.getElementById(`optionsContainer_${questionIndex}`);
+            if (select.value == "2" || select.value == "3") {
+                optionsContainer.style.display = "block";
+            } else {
+                optionsContainer.style.display = "none";
+            }
+        }
+
+        function addOption(questionIndex) {
+            const optionsContainer = document.getElementById(`optionsContainer_${questionIndex}`);
+            const optionIndex = optionsContainer.querySelectorAll('.option-item').length;
+            const optionHtml = `
+                        <div class="option-item mb-2">
+                            <input type="text" name="questions[${questionIndex}].Options[${optionIndex}]" class="form-control" placeholder="Option ${optionIndex + 1}" />
+                        </div>
+                    `;
+            optionsContainer.insertAdjacentHTML('beforeend', optionHtml);
+        }
+    </script>
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BTLWebKhaoSat", "BTLWebKhaoSat\BTLWebKhaoSat.csproj", "{81A225CA-893B-4C3D-97E6-DEB09A342543}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81A225CA-893B-4C3D-97E6-DEB09A342543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A225CA-893B-4C3D-97E6-DEB09A342543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A225CA-893B-4C3D-97E6-DEB09A342543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A225CA-893B-4C3D-97E6-DEB09A342543}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {008D6CEC-1B26-4665-A667-9D3CCC588FDC}
+	EndGlobalSection
+EndGlobal
