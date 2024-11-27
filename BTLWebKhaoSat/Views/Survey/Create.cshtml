@@ -3,26 +3,26 @@
     ViewData["Title"] = "Create Survey";
 }
 
-<h2>Create New Survey</h2>
+<h2 style="text-align: center; margin-bottom: 20px;">Create New Survey</h2>
 
-<form asp-action="Create" method="post" id="surveyForm">
-    <div class="form-group">
-        <label for="Title">Survey Title</label>
-        <input asp-for="Title" class="form-control" />
-        <span asp-validation-for="Title" class="text-danger"></span>
+<form asp-action="Create" method="post" id="surveyForm" style="max-width: 800px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #ffffff;">
+    <div class="form-group" style="margin-bottom: 15px;">
+        <label for="Title" style="font-weight: bold;">Survey Title</label>
+        <input asp-for="Title" class="form-control" style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;" />
+        <span asp-validation-for="Title" class="text-danger" style="font-size: 14px;"></span>
     </div>
 
-    <hr />
+    <hr style="margin: 20px 0;" />
 
-    <h3>Questions</h3>
+    <h3 style="margin-bottom: 15px;">Questions</h3>
     <div id="questionsContainer">
         <!-- Câu hỏi sẽ được thêm vào đây -->
     </div>
 
-    <button type="button" class="btn btn-secondary" onclick="addQuestion()">Add Question</button>
+    <button type="button" class="btn btn-secondary" style="padding: 8px 16px; font-size: 14px; border-radius: 4px;" onclick="addQuestion()">Add Question</button>
 
-    <hr />
-    <button type="submit" class="btn btn-success mt-3">Create Survey</button>
+    <hr style="margin: 20px 0;" />
+    <button type="submit" class="btn btn-success mt-3" style="padding: 10px 20px; font-size: 16px; border-radius: 4px;">Create Survey</button>
 </form>
 
 @section Scripts {
@@ -31,28 +31,28 @@
             const questionIndex = document.querySelectorAll('.question-item').length;
 
             const questionHtml = `
-                        <div class="question-item mb-3" data-index="${questionIndex}">
-                            <label>Question Text</label>
-                            <input name="questions[${questionIndex}].QuestionText" class="form-control" required />
+                                <div class="question-item mb-3" data-index="${questionIndex}" style="border: 1px solid #eee; padding: 15px; border-radius: 8px; background-color: #f9f9f9; margin-bottom: 15px;">
+                                    <label style="font-weight: bold;">Question Text</label>
+                                    <input name="questions[${questionIndex}].QuestionText" class="form-control" style="margin-bottom: 10px; padding: 10px; border-radius: 4px; border: 1px solid #ccc;" required />
 
-                            <label>Question Type</label>
-                            <select name="questions[${questionIndex}].TypeID" class="form-control" onchange="handleQuestionTypeChange(this, ${questionIndex})">
-                                <option value="1">Text</option>
-                                <option value="2">Single Choice</option>
-                                <option value="3">Multiple Choice</option>
-                            </select>
+                                    <label style="font-weight: bold;">Question Type</label>
+                                    <select name="questions[${questionIndex}].TypeID" class="form-control" style="margin-bottom: 10px; padding: 10px; border-radius: 4px; border: 1px solid #ccc;" onchange="handleQuestionTypeChange(this, ${questionIndex})">
+                                        <option value="1">Text</option>
+                                        <option value="2">Single Choice</option>
+                                        <option value="3">Multiple Choice</option>
+                                    </select>
 
-                            <div class="options-container mt-2" id="optionsContainer_${questionIndex}" style="display: none;">
-                                <label>Options</label>
-                                <div class="option-item mb-2">
-                                    <input type="text" name="questions[${questionIndex}].Options[0]" class="form-control" placeholder="Option 1" />
+                                    <div class="options-container mt-2" id="optionsContainer_${questionIndex}" style="display: none;">
+                                        <label style="font-weight: bold;">Options</label>
+                                        <div class="option-item mb-2">
+                                            <input type="text" name="questions[${questionIndex}].Options[0]" class="form-control" style="margin-bottom: 10px; padding: 10px; border-radius: 4px; border: 1px solid #ccc;" placeholder="Option 1" />
+                                        </div>
+                                        <button type="button" class="btn btn-secondary btn-sm" style="padding: 5px 10px; font-size: 12px; border-radius: 4px;" onclick="addOption(${questionIndex})">Add Option</button>
+                                    </div>
+
+                                    <hr style="margin-top: 20px;" />
                                 </div>
-                                <button type="button" class="btn btn-secondary btn-sm" onclick="addOption(${questionIndex})">Add Option</button>
-                            </div>
-
-                            <hr />
-                        </div>
-                    `;
+                            `;
 
             document.getElementById('questionsContainer').insertAdjacentHTML('beforeend', questionHtml);
         }
@@ -70,10 +70,10 @@
             const optionsContainer = document.getElementById(`optionsContainer_${questionIndex}`);
             const optionIndex = optionsContainer.querySelectorAll('.option-item').length;
             const optionHtml = `
-                        <div class="option-item mb-2">
-                            <input type="text" name="questions[${questionIndex}].Options[${optionIndex}]" class="form-control" placeholder="Option ${optionIndex + 1}" />
-                        </div>
-                    `;
+                                <div class="option-item mb-2">
+                                    <input type="text" name="questions[${questionIndex}].Options[${optionIndex}]" class="form-control" style="margin-bottom: 10px; padding: 10px; border-radius: 4px; border: 1px solid #ccc;" placeholder="Option ${optionIndex + 1}" />
+                                </div>
+                            `;
             optionsContainer.insertAdjacentHTML('beforeend', optionHtml);
         }
     </script>

@@ -1,29 +1,30 @@
 ﻿@model BTLWebKhaoSat.Models.Survey
 
-<h2>@Model.Title</h2>
-<form asp-action="AnswerSurvey" method="post">
+<h2 style="text-align: center; margin-bottom: 20px; font-size: 24px; font-weight: bold;">@Model.Title</h2>
+
+<form asp-action="AnswerSurvey" method="post" style="max-width: 800px; margin: 0 auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #ffffff;">
     <input type="hidden" name="SurveyId" value="@Model.SurveyId" />
 
     @for (int i = 0; i < Model.Questions.Count; i++)
     {
         var question = Model.Questions.ElementAt(i);
 
-        <div class="form-group">
-            <label>@question.QuestionText</label>
+        <div class="form-group" style="margin-bottom: 20px;">
+            <label style="font-weight: bold; font-size: 16px; margin-bottom: 10px; display: block;">@question.QuestionText</label>
 
             @if (question.TypeId == 1) // Text
             {
                 <input type="hidden" name="responses[@i].QuestionID" value="@question.QuestionId" />
-                <input type="text" name="responses[@i].AnswerText" class="form-control" />
+                <input type="text" name="responses[@i].AnswerText" class="form-control" style="width: 100%; padding: 10px; border-radius: 4px; border: 1px solid #ccc;" />
             }
             else if (question.TypeId == 2) // Single Choice
             {
                 <input type="hidden" name="responses[@i].QuestionID" value="@question.QuestionId" />
                 @foreach (var option in question.QuestionOptions)
                 {
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="responses[@i].AnswerText" value="@option.OptionText" />
-                        <label class="form-check-label">@option.OptionText</label>
+                    <div class="form-check" style="margin-bottom: 10px;">
+                        <input class="form-check-input" type="radio" name="responses[@i].AnswerText" value="@option.OptionText" style="margin-right: 10px;" />
+                        <label class="form-check-label" style="font-size: 14px;">@option.OptionText</label>
                     </div>
                 }
             }
@@ -32,14 +33,16 @@
                 <input type="hidden" name="responses[@i].QuestionID" value="@question.QuestionId" />
                 @foreach (var option in question.QuestionOptions)
                 {
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" name="responses[@i].Options" value="@option.OptionText" />
-                        <label class="form-check-label">@option.OptionText</label>
+                    <div class="form-check" style="margin-bottom: 10px;">
+                        <input class="form-check-input" type="checkbox" name="responses[@i].Options" value="@option.OptionText" style="margin-right: 10px;" />
+                        <label class="form-check-label" style="font-size: 14px;">@option.OptionText</label>
                     </div>
                 }
             }
         </div>
     }
 
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary" style="padding: 10px 20px; font-size: 16px; border-radius: 4px; background-color: #007bff; color: white; border: none; cursor: pointer; transition: background-color 0.3s ease;">
+        Submit
+    </button>
 </form>

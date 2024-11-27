@@ -241,6 +241,80 @@ namespace BTLWebKhaoSat.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+        
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DeleteFirstSurvey()
+        {
+            // Lấy khảo sát đầu tiên trong bảng Surveys
+            var firstSurvey = _context.Surveys
+                .Include(s => s.Questions)
+                .ThenInclude(q => q.QuestionOptions)
+                .FirstOrDefault();
+
+            if (firstSurvey == null)
+            {
+                return NotFound("No surveys available to delete.");
+            }
+
+            // Xóa các câu hỏi và các lựa chọn liên quan trước
+            foreach (var question in firstSurvey.Questions)
+            {
+                _context.QuestionOptions.RemoveRange(question.QuestionOptions);
+                _context.Questions.Remove(question);
+            }
+
+            // Xóa khảo sát
+            _context.Surveys.Remove(firstSurvey);
+            _context.SaveChanges();
+
+            return RedirectToAction("Index"); // Chuyển hướng về trang Index sau khi xóa
+        }
+
+        [HttpGet]
+        public IActionResult EditFirstSurvey()
+        {
+            var firstSurvey = _context.Surveys
+                .OrderBy(s => s.SurveyId) // Lấy khảo sát đầu tiên dựa trên thời gian tạo
+                .FirstOrDefault();
+
+            if (firstSurvey == null)
+            {
+                return NotFound("No surveys available to edit.");
+            }
+
+            // Chuyển hướng đến action EditSurvey với ID của khảo sát đầu tiên
+            return RedirectToAction("EditSurvey", new { id = firstSurvey.SurveyId });
+        }
+
+        [HttpGet]
+        public IActionResult EditSurvey(int id)
+        {
+            var survey = _context.Surveys
+            .Include(s => s.Questions)
+            .ThenInclude(q => q.QuestionOptions)
+            .FirstOrDefault(s => s.SurveyId == id);
+
+            if (survey == null)
+            {
+                return NotFound("Survey not found.");
+            }
+
+            var questions = survey.Questions.Select(q => new QuestionViewModel
+            {
+                QuestionId = q.QuestionId,
+                QuestionText = q.QuestionText,
+                TypeID = q.TypeId,
+                Options = q.QuestionOptions.Select(o => o.OptionText).ToList()
+            }).ToList();
+
+            ViewBag.Questions = questions;
+
+            return View(survey);
+        }
+
+
 
     }
 }

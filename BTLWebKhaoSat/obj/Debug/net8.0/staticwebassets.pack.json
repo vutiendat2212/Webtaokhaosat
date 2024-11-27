@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\BTLWebKhaoSat.bundle.scp.css"
     },
     {
+      "Id": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\wwwroot\\css\\all-survey.css",
+      "PackagePath": "staticwebassets\\css\\all-survey.css"
+    },
+    {
       "Id": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,16 +1,18 @@
 ﻿@model BTLWebKhaoSat.Models.Survey
 
-<h2>Responses for @Model.Title</h2>
+<h2 style="text-align: center; margin-bottom: 20px; font-size: 24px; font-weight: bold;">Responses for @Model.Title</h2>
 
-<a asp-controller="Survey" asp-action="MySurveys" class="btn btn-secondary mb-3">Back to My Surveys</a>
-<a asp-controller="Survey" asp-action="ExportToExcel" asp-route-id="@Model.SurveyId" class="btn btn-success mb-3">Export to Excel</a>
+<div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+    <a asp-controller="Survey" asp-action="MySurveys" class="btn btn-secondary" style="padding: 10px 20px; font-size: 14px; border-radius: 4px; text-decoration: none;">Back to My Surveys</a>
+    <a asp-controller="Survey" asp-action="ExportToExcel" asp-route-id="@Model.SurveyId" class="btn btn-success" style="padding: 10px 20px; font-size: 14px; border-radius: 4px; text-decoration: none;">Export to Excel</a>
+</div>
 
-<table class="table">
-    <thead>
+<table class="table" style="width: 100%; border-collapse: collapse; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+    <thead style="background-color: #007bff; color: white; text-align: left;">
         <tr>
-            <th>Question</th>
-            <th>Answer</th>
-            <th>Answered By</th>
+            <th style="padding: 12px; border-bottom: 1px solid #ddd;">Question</th>
+            <th style="padding: 12px; border-bottom: 1px solid #ddd;">Answer</th>
+            <th style="padding: 12px; border-bottom: 1px solid #ddd;">Answered By</th>
         </tr>
     </thead>
     <tbody>
@@ -18,10 +20,10 @@
         {
             foreach (var response in question.Responses)
             {
-                <tr>
-                    <td>@question.QuestionText</td>
-                    <td>@response.AnswerText</td>
-                    <td>@response.User.Username</td> <!-- Hiển thị tên người trả lời -->
+                <tr style="border-bottom: 1px solid #ddd;">
+                    <td style="padding: 12px;">@question.QuestionText</td>
+                    <td style="padding: 12px;">@response.AnswerText</td>
+                    <td style="padding: 12px;">@response.User.Username</td>
                 </tr>
             }
         }

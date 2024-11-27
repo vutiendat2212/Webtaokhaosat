@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BTLWebKhaoSat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27dddd63be12cd217a4e090f374c9c2a8a32e5b0")]
 [assembly: System.Reflection.AssemblyProductAttribute("BTLWebKhaoSat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BTLWebKhaoSat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

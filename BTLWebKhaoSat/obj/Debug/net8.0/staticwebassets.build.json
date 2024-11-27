@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/rZ9SCRaAi/cAPPa4ghVQpIc125qq230nDQjgqaJYIQ=",
+  "Hash": "RR2PeM8S9C+JZSDyjLNLW2RH6UTYjdyn0JrkUvP2FKs=",
   "Source": "BTLWebKhaoSat",
   "BasePath": "_content/BTLWebKhaoSat",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BTLWebKhaoSat.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\wwwroot\\css\\all-survey.css",
+      "SourceId": "BTLWebKhaoSat",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\wwwroot\\",
+      "BasePath": "_content/BTLWebKhaoSat",
+      "RelativePath": "css/all-survey.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\all-survey.css"
     },
     {
       "Identity": "D:\\BTLWebKhaoSat\\BTLWebKhaoSat\\wwwroot\\css\\site.css",

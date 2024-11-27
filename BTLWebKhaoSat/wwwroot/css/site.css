@@ -1,22 +1,111 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+﻿/* Tổng quan */
 body {
-  margin-bottom: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
 }
+
+/* Thanh điều hướng */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #007bff !important;
+}
+
+.navbar-nav.ms-auto {
+    margin-left: auto; /* Đẩy các mục trong navbar sang phải */
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px; /* Khoảng cách giữa các mục */
+}
+
+.navbar-nav .nav-link, .navbar-text {
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #0056b3;
+    }
+
+.navbar-text {
+    font-weight: 500;
+}
+
+/* Nút bấm */
+.btn {
+    border-radius: 5px;
+    padding: 8px 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #0056b3;
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+        border-color: #545b62;
+    }
+
+.btn-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+    .btn-link:hover {
+        color: #0056b3;
+        text-decoration: underline;
+    }
+
+/* Container chính */
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer tùy chọn */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+
+.sidebar {
+    height: 100vh; /* Chiều cao full màn hình */
+    padding-top: 1rem;
+    background-color: #f8f9fa; /* Màu nền nhẹ */
+}
+
+    .sidebar .nav-link {
+        font-weight: 500;
+        color: #333;
+    }
+
+        .sidebar .nav-link:hover {
+            background-color: #ddd;
+        }

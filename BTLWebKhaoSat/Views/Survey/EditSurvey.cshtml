@@ -1,0 +1,42 @@
+﻿@model BTLWebKhaoSat.Models.Survey
+
+<form asp-action="EditSurvey" method="post">
+    <input type="hidden" asp-for="SurveyId" />
+
+    <h3>Questions</h3>
+    <div id="questionsContainer">
+        @for (int i = 0; i < ViewBag.Questions.Count; i++)
+        {
+            var question = ViewBag.Questions[i];
+
+            <div class="question-item mb-3">
+                <input type="hidden" name="questions[@i].QuestionId" value="@question.QuestionId" />
+                <label>Question Text</label>
+                <input name="questions[@i].QuestionText" value="@question.QuestionText" class="form-control" required />
+                
+                <label>Question Type</label>
+                <select name="questions[@i].TypeID" class="form-control">
+                    <option value="1" selected="@(question.TypeID == 1)">Text</option>
+                    <option value="2" selected="@(question.TypeID == 2)">Single Choice</option>
+                    <option value="3" selected="@(question.TypeID == 3)">Multiple Choice</option>
+
+                </select>
+
+                <div class="options-container mt-2">
+                    @if (question.TypeID == 2 || question.TypeID == 3)
+                    {
+                        <label>Options</label>
+                        @for (int j = 0; j < question.Options.Count; j++)
+                        {
+                            <input type="text" name="questions[@i].Options[@j]" value="@question.Options[j]" class="form-control" />
+                        }
+                        <button type="button" class="btn btn-secondary btn-sm" onclick="addOption(@i)">Add Option</button>
+                    }
+                </div>
+                <hr />
+            </div>
+        }
+    </div>
+
+    <button type="submit" class="btn btn-success mt-3">Save Changes</button>
+</form>

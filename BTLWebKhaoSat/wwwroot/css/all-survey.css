@@ -1,0 +1,73 @@
+﻿/* Container chứa các khảo sát */
+.survey-container {
+    display: flex;
+    flex-direction: column; /* Dạng dọc */
+    gap: 20px; /* Khoảng cách giữa các ô */
+    margin-top: 20px;
+}
+
+/* Mỗi ô khảo sát */
+.survey-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%; /* Chiếm toàn bộ chiều ngang */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .survey-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Tiêu đề khảo sát */
+    .survey-card h4 {
+        margin-bottom: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+    }
+
+/* Khu vực nút hành động */
+.actions {
+    display: flex;
+    justify-content: space-between; /* Đẩy các nút về 2 phía */
+    gap: 10px; /* Khoảng cách giữa các nút */
+    align-items: center;
+}
+
+/* Định dạng nút */
+.btn {
+    padding: 8px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+    .btn-danger:hover {
+        background-color: #c82333;
+    }
+
+/* Form trong ô hành động */
+form {
+    display: inline;
+}

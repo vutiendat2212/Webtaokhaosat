@@ -149,3 +149,4 @@ D:\BTLWebKhaoSat\BTLWebKhaoSat\bin\Debug\net8.0\ExcelNumberFormat.dll
 D:\BTLWebKhaoSat\BTLWebKhaoSat\bin\Debug\net8.0\RBush.dll
 D:\BTLWebKhaoSat\BTLWebKhaoSat\bin\Debug\net8.0\SixLabors.Fonts.dll
 D:\BTLWebKhaoSat\BTLWebKhaoSat\bin\Debug\net8.0\System.IO.Packaging.dll
+D:\BTLWebKhaoSat\BTLWebKhaoSat\obj\Debug\net8.0\BTLWebKhaoSat.sourcelink.json
